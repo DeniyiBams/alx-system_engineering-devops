@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $NUM | tr " " "\n" | grep "%2f"
+printf '%.2f\n' $NUM
